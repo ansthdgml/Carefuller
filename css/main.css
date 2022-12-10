@@ -1,0 +1,86 @@
+.sectionWrap{width: 100vw; height: auto; }
+
+#sec01{height: 100vh; background-image: url('../img/bg01.png');}
+#sec01 video{width: 100vw; height: 100vh;}
+
+#sec02{height: 2513px; background-image: url('../img/sec01.jpg'); position: relative;}
+#sec02 .sec02-img{display: flex; position: absolute; bottom: 0;}
+
+#sec03{height: 2513px; background-image: url('../img/sec03.jpg'); position: relative;}
+#sec03 .sec03-img{display: inline-block;}
+#sec03 .sec03-img .sec3Img01{ position: absolute; top: 730px; left: 300px; justify-content: center;}
+#sec03 .sec03-img .sec3Img02{ position: absolute; top: 730px; left: 727px;}
+#sec03 .sec03-img .sec3Img03{ position: absolute; top: 730px; right: 300px;}
+
+#sec04{height: 1700px; background-image: url('../img/sec04.jpg'); position: relative;}
+
+#sec05{height: 2368px; background-image: url('../img/sec05.jpg'); position: relative; }
+#sec05 video{
+ width: 1280px; 
+ position: absolute; 
+ bottom: 0;
+ top: 80%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+#background_img{width: 100vw; height: 700px; background-image: url('../img/bg01.png'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+
+#sec06{height: 1684px; background-image: url('../img/sec06.jpg'); position: relative;}
+
+#sec07{height: 1797px; background-image: url('../img/sec07.jpg'); position: relative;}
+
+#sec08{height: 3111px; background-image: url('../img/sec08.jpg'); position: relative;}
+#sec08-img{position: absolute; top: 600px; animation: icon 20s infinite;}
+#sec08 video{width: 1400px; position: absolute; top: 1700px; left: 200px; outline: none; border: none;}
+
+@keyframes icon {
+    0%{ left: 0;}
+    100%{left: -1000px;}
+}
+
+#sec09{height: 907px; background-image: url('../img/sec09.jpg'); position: relative;}
+
+#sec10{height: 1500px; background-color: bisque; position: relative;}
+
+#sec11{height: 2289px; background-image: url('../img/sec10.jpg'); position: relative;}
+
+#sec12{height: 2393px; background-image: url('../img/sec11.jpg'); position: relative;}
+
+#sec13{height: 1353px; background-image: url('../img/sec12.jpg'); position: relative;}
+
+#sec14{height: 1262px; background-color: #F8F9FB; position: relative;}
+#sec14 img{position: absolute; top: 400px; right: 0; z-index: 1;}
+#sec14 video {
+    width: 1000px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+#sec15{height: 5159px; background-image: url('../img/sec14.jpg'); position: relative;}
+
+#sec17{height: 2678px; background-image: url('../img/sec16.png'); position: relative;}
+#sec17 video{position: absolute; bottom: -100px;}
+
+#sec18{height: 1582px; background-image: url('../img/sec17.jpg'); position: relative;}
+#sec18-img{position: absolute; top: 700px; left: 245px;} 
+#sec18-img2{position: absolute; top: 900px; left: 389px;} 
+#sec18-img3{position: absolute; top: 1100px; left: 245px;} 
+#sec18-img4{position: absolute; top: 1300px; left: 390px;} 
+
+#sec19{height: 2795px; background-image: url('../img/sec18.jpg'); position: relative;}
+.video1{position: absolute; top: 830px; left: 450px; width: 450px;  outline: none;
+    border: none;}
+.video2{position: absolute; top: 1530px; right: 450px; width: 450px;  outline: none;
+    border: none;}
+
+
+#sec20{height: 2060px; background-image: url('../img/sec19.jpg'); position: relative;}
+#sec20-img{position: absolute; right: 800px; top: 1000px;}
+#sec20-img1{position: absolute; right: 400px; top: 980px; display: none;}
+
+
+#sec21{height: 1543px; background-image: url('../img/sec20.jpg'); position: relative;}
+
+footer{width: 100vw; height: 2187px; background-image: url('../img/footer.jpg'); position: relative;}

@@ -1,3 +1,5 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
 .sectionWrap{width: 100vw; height: auto; }
 
 #sec01{height: 100vh; background-image: url('../img/bg01.png');}
@@ -46,6 +48,22 @@
 #sec11{height: 2289px; background-image: url('../img/sec10.jpg'); position: relative;}
 
 #sec12{height: 2393px; background-image: url('../img/sec11.jpg'); position: relative;}
+
+#onSection{ height: 100vh; background: url('../img/onBack.png'); background-repeat: no-repeat; background-size: cover; background-position: center; display: flex;}
+.insec{ width: calc( ( 100vw - 3vw ) / 2 ); height: 100vh; margin: 0 auto;}
+.insec h5{font-size: 2em; font-family: 'pretendard'; padding: 10vh 10vw; margin-top: 5vh; font-weight: 700;}
+.insec h2{font-size: 5em; font-family: 'pretendard';  padding: 2vh 10vw;}
+.insec h2 span{color: #5E76FF; line-height: 1.5em;}
+.insec p{font-size: 1.3em; font-family: 'pretendard';  padding: 7vh 10vw; line-height: 1.5em;}
+
+/* #onBtn{border: solid 1px red;} */
+#onBtn ul{display: flex;padding: 5vh 10vw;}
+#onBtn ul li{border: solid 2px #5E76FF; padding: 1vh 2vw; border-radius: 999px; margin-right: 0.5vw; font-family: 'pretendard'; color: #5E76FF; font-weight: 700;}
+#onBtn ul li:hover{ background-color: #5E76FF; color: white;}
+#onBtn ul li.clickBtn{ background-color: #5E76FF; color: white;}
+
+#onvideo {margin: 0 auto; text-align: center;}
+#onvideo img{width: 45%; margin-top: 3vh;}
 
 #sec13{height: 1353px; background-image: url('../img/sec12.jpg'); position: relative;}
 
